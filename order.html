@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order form</title>
+
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone5.css">
+  </head>
+  <body>
+    <section id="main_section">
+      <nav class="nav">
+        <h1 class="nav__logo">Reliable Restaurants</h1>
+        <div class="nav__burger" tabindex="0">
+          <div class="nav__burger__line nav__burger__line--one"></div>
+          <div class="nav__burger__line nav__burger__line--two"></div>
+          <div class="nav__burger__line nav__burger__line--three"></div>
+        </div>
+        <ul class="nav__menu">
+          <li class="nav__menu__item"><a class="nav__menu__item__a" href="index.html">home</a></li>
+          <li class="nav__menu__item"><a class="nav__menu__item__a" href="resveration.html">Resvervation</a></li>
+          <li class="nav__menu__item"><a class="nav__menu__item__a" href="index.html#menu_deatils">menu</a></li>
+          <li class="nav__menu__item"><a class="nav__menu__item__a" href="contact.html">Contact</a></li>
+          <li class="nav__menu__item"><a class="nav__menu__item__a" href="login.html">Login</a></li>
+          <li class="nav__menu__item"><a class="nav__menu__item__a" href="order.html">Online Order</a></li>
+        </ul>
+      </nav>
+
+
+    <div class="main-block">
+      <h1>Order Form</h1>
+      <form action="/">
+        <div class="info">
+          <input class="fname" type="text" name="name" placeholder="Full name">
+          <input type="text" name="name" placeholder="Email">
+          <input type="text" name="name" placeholder="Phone number">
+          <input type="text" name="name" placeholder="Today's date">
+          <input type="text" name="name" placeholder="Order due date">
+          <input type="text" name="name" placeholder="Date of event">
+          <input type="text" name="name" placeholder="Time of event">
+          <input type="text" name="name" placeholder="Event location">
+          <input type="text" name="name" placeholder="Type of event">
+          <select>
+            <option value="number" disabled selected>Number of guests</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+          </select>
+          <select>
+            <option value="time" disabled selected>Pick up time</option>
+            <option value="8">8:00am</option>
+            <option value="9">9:00am</option>
+            <option value="10">10:00am</option>
+            <option value="12">12:00pm</option>
+            <option value="1">1:00pm</option>
+            <option value="3">3:00pm</option>
+            <option value="6">6:00pm</option>
+            <option value="7">7:00pm</option>
+          </select>
+        </div>
+        <h3>Delivry Metod</h3>
+        <div class="metod">
+          <div>
+            <input type="radio" value="none" id="radioOne" name="metod" checked/>
+            <label for="radioOne" class="radio">For pick up</label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radioTwo" name="metod" />
+            <label for="radioTwo" class="radio">For delivery</label>
+          </div>
+        </div>
+        <button href="/" class="button">Submit</button>
+      </form>
+    </div>
+    </section>
+    <section id="about">
+      <footer>
+        <div class="timming">
+
+
+        <h1>Opening Timing</h1>
+        <h2>Mon to sat ......... 8am to 8pm</h2>
+        <h2>Sunday ......... 11am to 8pm</h2>
+        <h2>Public holiday ......... 8am to 1pm</h2>
+        </div>
+        <div class="location">
+          <h2>Reliable Restaurant F7 Markaz Islamabad</h2>
+          <h2>Phone: 051-123123</h2>
+        <h2> reliablerestaurant@gmail.com</h2>
+
+        </div>
+        <hr>
+        <p class="Copyright">Copyright © 2021  Reliable Restaurant demo. All Rights Reserved. Designed by Syed Abdul Moiz Shah.</p>
+
+      </footer>
+    </section>
+  </body>
+</html>
